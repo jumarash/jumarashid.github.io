@@ -9,11 +9,12 @@ $(window).on("load",start);
 
 function loadpage(e){
 
-    e.preventDefault ();
+    e.preventDefault();
     $("#menu a.active").removeClass("active");
     $(this).addClass("active");
     
     $("#content").load("about.html");
+
 }
 
 
